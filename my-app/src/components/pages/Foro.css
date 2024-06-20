@@ -1,0 +1,123 @@
+.layout {
+  background-image: url(hands.jpg);
+  background-size: cover;
+  font-size: 30px;
+}
+
+.layout h1 {
+  padding-top: 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.layout p {
+  padding-bottom: 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.linksForo li {
+  padding: 0.5rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.linksForo li:hover{
+  cursor: pointer;
+  background-color: rgb(190, 185, 185);
+  border-radius: 15px;
+}
+
+.active {
+  color: red;
+}
+
+.navbarForo {
+  padding-left: 2.5rem;
+}
+
+.bloqueCategoria {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.imagenBloqueCategoria {
+  width: 350px;
+  height: 250px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+}
+
+.infoBloqueCategoria {
+  border-color: black;
+  border: 0.1rem;
+  width: 350px;
+  border-style: ridge;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: start;
+}
+
+.infoBloqueCategoria p{
+  padding-left: 0.5rem;
+}
+
+.discusion {
+  min-width: 300px;
+  min-height: 100px;
+  border-style: solid;
+  font-size: 20px;
+  border-color: gray;
+  resize: none;
+}
+
+.discusion:hover {
+  cursor: text;
+  background-color: #eeeeee;
+}
+
+.bloqueDiscusion {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.botonesForo {
+  display: flex;
+}
+
+.botonPublicar {
+  margin-top: 0.7rem;
+  margin-right: 0.5rem;
+  font-size: 20px;
+  border-style: solid;
+  background: red;
+  border-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5rem;
+}
+
+.botonCancelar {
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+  background-color: gray;
+  border-color: gray;
+  border-style: solid;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.misEntradas{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}

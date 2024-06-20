@@ -1,0 +1,44 @@
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1rem;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.programas {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.log {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+nav ul li a {
+  font-size: 20px;  
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: hsl(0, 0%, 89%);
+  border-style: solid;
+  border-color: #e3e3e3;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}

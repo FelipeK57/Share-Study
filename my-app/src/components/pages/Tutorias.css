@@ -1,0 +1,64 @@
+.tituloTutoria {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flechas {
+  width: 20px;
+  height: 20px;
+  margin: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reservarTutoria {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.botonTutoriaGrupal {
+  background-color: red;
+  color: white;
+  border-style: solid;
+  border-color: red;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.botonTutoriaIndividual {
+  background-color: red;
+  color: white;
+  border-style: solid;
+  border-color: red;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.blockArrow {
+  transition: 0.5s;
+  background-color: hsl(0, 0%, 89%);
+  border-style: ridge;
+  border: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.blockArrow:hover {
+  padding: 0.5rem;
+}
+
+.linkTutoriaGrupal {
+  text-decoration: none;
+  color: white;
+}

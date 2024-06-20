@@ -1,0 +1,78 @@
+.inicioDiscusion {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+
+.respuestasDiscusion {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  text-align: start;
+  padding: 1rem;
+}
+
+.respuestasDiscusion p {
+  text-align: start;
+}
+
+.crearComentario {
+  margin: 0.5rem;
+  border-radius: 20px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.crearComentario textarea {
+  min-width: 300px;
+  min-height: 100px;
+  border-style: solid;
+  font-size: 20px;
+  border-color: gray;
+  resize: none;
+  margin-right: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif ;
+  border-radius: 8px;
+}
+
+.crearComentario textarea:hover {
+  cursor: text; 
+  background-color: #eeeeee;
+}
+
+.crearComentario textarea:focus{
+    background-color: white;
+    border-color: red;
+}
+
+.añadirComentario {
+  font-size: 20px;
+  border-style: solid;
+  background: red;
+  border-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 200px;
+}
+
+.comentario {
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+
+.foroDiscusion{
+    margin: 2rem;
+}
+
+.tituloDiscusion{
+    text-align: start;
+}

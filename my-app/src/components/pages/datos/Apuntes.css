@@ -1,0 +1,21 @@
+.panelApuntes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apuntesSemestre a {
+  text-decoration: none;
+  color: red;
+}
+
+.apuntesSemestre {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+  font-size: 20px;
+  border-radius: 20px;
+}
