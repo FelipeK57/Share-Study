@@ -7,8 +7,8 @@ compartidos por los estudiantes, y ofrece funcionalidades
 adicionales como tutores y foros para realizar preguntas y
 discusiones académicas.
 # Programas academicos
-![imagen](images/img1)
+![imagen](images/img1.png)
 # Tutorias
-![imagen2](images/img2)
+![imagen2](images/img2.png)
 # Foro
-![imagen3](images/img3)
+![imagen3](images/img3.png)
